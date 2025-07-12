@@ -1,20 +1,66 @@
-<<<<<<< HEAD
-# cryptoproject
+# 📱 CryptoApp - Flutter
 
-A new Flutter project.
 
-## Getting Started
+**CryptoApp** là một dự án cá nhân do tôi tự thiết kế và phát triển hoàn toàn bằng Flutter/Dart.  
+Ứng dụng giúp người dùng theo dõi dữ liệu tiền điện tử theo thời gian thực, bao gồm biểu đồ giá, thông tin chi tiết coin, cảnh báo giá và mô phỏng giao dịch mua bán.  
+Dự án được xây dựng từ đầu để thể hiện kỹ năng thiết kế UI, quản lý trạng thái, gọi API và lưu trữ cục bộ.
+Ứng dụng sử dụng các kỹ thuật và thư viện hiện đại như `Cubit`, `Freezed`, và `Retrofit` để đảm bảo hiệu suất và tính ổn định cao.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 📸 Giao Diện Demo
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 🔐 Onboarding, Login & Signup
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# cryptoapp-flutter
->>>>>>> 9163e241b7d8fe8f34b0806227397ba442300b41
+| Onboarding | Login | Signup |
+|------------|-------|--------|
+| ![Onboarding](UI/onboarding.png) | ![Login](UI/login.png) | ![Signup](UI/signup.png) |
+
+### 🏠 Màn hình chính
+
+| Home 1 | Home 2 |
+|--------|--------|
+| ![Home Page](UI/home_page.png) | ![Home Page 2](UI/home_page2.png) |
+
+### 💹 Màn hình chi tiết coin
+
+![Detail Page](UI/detail.png)
+
+---
+
+## 🚀 Tính Năng Nổi Bật
+
+- 📈 Hiển thị biểu đồ biến động giá (line chart / candlestick)
+- 🔍 Xem thông tin chi tiết từng đồng coin: giá cao nhất, thấp nhất, khối lượng,...
+- ⏱ Chuyển đổi thời gian: ngày, tuần, tháng, năm
+- 🌙 Giao diện tối (dark mode) hiện đại
+- 📡 Cập nhật dữ liệu từ API thông qua Retrofit
+
+---
+
+## 🛠️ Công Nghệ & Thư Viện
+
+- **Flutter** & Dart
+- **Cubit** (Bloc library): quản lý trạng thái mượt mà
+- **Freezed**: tạo data model an toàn, dễ bảo trì
+- **Retrofit** + `json_serializable`: kết nối API hiệu quả
+- **Postman Mock API**: mô phỏng dữ liệu coin thực tế
+- **fl_chart**, **candlesticks**: hiển thị biểu đồ trực quan
+- **SharedPreferences**: lưu trữ dữ liệu cục bộ như trạng thái đăng nhập, cài đặt,...
+- Responsive cho Android và iOS
+
+---
+
+## 🔧 Cài Đặt & Chạy Ứng Dụng
+
+```bash
+# Clone dự án
+git clone https://github.com/your-username/cryptoapp-flutter.git
+
+# Cài đặt dependencies
+cd cryptoapp-flutter
+flutter pub get
+
+# Chạy ứng dụng
+flutter run
+
