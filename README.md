@@ -1,9 +1,8 @@
 # 📱 CryptoApp - Flutter
 
-
 **CryptoApp** là một dự án cá nhân do tôi tự thiết kế và phát triển hoàn toàn bằng Flutter/Dart.  
 Ứng dụng giúp người dùng theo dõi dữ liệu tiền điện tử theo thời gian thực, bao gồm biểu đồ giá, thông tin chi tiết coin, cảnh báo giá và mô phỏng giao dịch mua bán.  
-Dự án được xây dựng từ đầu để thể hiện kỹ năng thiết kế UI, quản lý trạng thái, gọi API và lưu trữ cục bộ.
+Dự án được xây dựng từ đầu để thể hiện kỹ năng thiết kế UI, quản lý trạng thái, gọi API và lưu trữ cục bộ.  
 Ứng dụng sử dụng các kỹ thuật và thư viện hiện đại như `Cubit`, `Freezed`, và `Retrofit` để đảm bảo hiệu suất và tính ổn định cao.
 
 ---
@@ -14,17 +13,19 @@ Dự án được xây dựng từ đầu để thể hiện kỹ năng thiết 
 
 | Onboarding | Login | Signup |
 |------------|-------|--------|
-| ![Onboarding](UI/onboarding.png) | ![Login](UI/login.png) | ![Signup](UI/signup.png) |
+| <img src="UI/onboarding.png" width="200"/> | <img src="UI/login.png" width="200"/> | <img src="UI/signup.png" width="200"/> |
 
 ### 🏠 Màn hình chính
 
 | Home 1 | Home 2 |
 |--------|--------|
-| ![Home Page](UI/home_page.png) | ![Home Page 2](UI/home_page2.png) |
+| <img src="UI/home_page.png" width="200"/> | <img src="UI/home_page2.png" width="200"/> |
 
 ### 💹 Màn hình chi tiết coin
 
-![Detail Page](UI/detail.png)
+<p align="center">
+  <img src="UI/detail.png" width="300"/>
+</p>
 
 ---
 
@@ -41,6 +42,7 @@ Dự án được xây dựng từ đầu để thể hiện kỹ năng thiết 
 ## 🛠️ Công Nghệ & Thư Viện
 
 - **Flutter** & Dart
+- **Clean Architecture**
 - **Cubit** (Bloc library): quản lý trạng thái mượt mà
 - **Freezed**: tạo data model an toàn, dễ bảo trì
 - **Retrofit** + `json_serializable`: kết nối API hiệu quả
@@ -55,7 +57,7 @@ Dự án được xây dựng từ đầu để thể hiện kỹ năng thiết 
 
 ```bash
 # Clone dự án
-git clone https://github.com/your-username/cryptoapp-flutter.git
+git clone git@github.com:phunghao2903/cryptoapp-flutter.git
 
 # Cài đặt dependencies
 cd cryptoapp-flutter
